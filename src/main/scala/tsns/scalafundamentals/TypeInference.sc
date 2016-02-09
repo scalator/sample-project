@@ -24,3 +24,10 @@ val mixedBag = Seq(1, 2, "three", "banana", Math.PI)
 def sizeOf[A](mySeq: Seq[A]) = mySeq.size
 
 sizeOf(mixedBag)
+
+class Animal {}
+
+class Dog extends Animal {}
+class Cat extends Animal {}
+
+val animals = Seq(new Dog, new Cat)
