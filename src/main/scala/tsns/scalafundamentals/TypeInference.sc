@@ -25,9 +25,9 @@ def sizeOf[A](mySeq: Seq[A]) = mySeq.size
 
 sizeOf(mixedBag)
 
-class Animal {}
+class Animal
 
-class Dog extends Animal {}
-class Cat extends Animal {}
+class Dog extends Animal
+class Cat extends Animal
 
 val animals = Seq(new Dog, new Cat)

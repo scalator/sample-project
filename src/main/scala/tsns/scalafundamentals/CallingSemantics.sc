@@ -43,3 +43,17 @@ piSeq mkString " "
 
 val square = (x: Int) => Math.pow(x, 2)
 Seq(1,2,3) map square
+
+// Values and Expressions
+
+//val foo = class FooClass // not an expression
+
+// Passing Expressions
+
+// max() impl.
+Seq(1,2,3,2,1).foldLeft(0) { (last: Int, num:Int) =>
+  if (last >= num) last
+  else num
+}
+
+
